@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0ec20e5d;
+}
+
+.table {
+}
+
+.dictionary-table {
+  position: absolute;
+  width: 700px;
+  height: 300px;
+  padding: 130px 50px;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: aliceblue;
+  border-radius: 50px;
+}
+
+.search-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.search-bar input {
+  width: 70%;
+  font-size: 32px;
+  border: none;
+  border-bottom: 2px solid #0e98c25d;
+  outline: none;
+}
+
+.btn {
+  padding: 15px 0;
+  width: 15%;
+  background-color: rgb(37, 65, 5);
+  color: #fff;
+  border: none;
+}
+
+.btn:hover {
+  background-color: rgba(148, 236, 140, 0.212);
+  color: #000;
+}
