@@ -49,3 +49,20 @@ body {
   background-color: rgba(148, 236, 140, 0.212);
   color: #000;
 }
+
+.result {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3.searched-word {
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.icon {
+  font-size: 20px;
+  background-color: transparent;
+  color: #000;
+  border: none;
+}
