@@ -76,6 +76,10 @@ body {
   font-size: 14px;
 }
 
+.word-detail p {
+  padding-right: 10px;
+}
+
 .meaning {
   color: rgba(165, 42, 42, 0.397);
 }
