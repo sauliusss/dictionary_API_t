@@ -12,7 +12,7 @@ btn.addEventListener("click", () => {
       result.innerHTML = `
     <div class="searched-word">
     <h3>${search}</h3>
-    <button onclick="playSound()"><i class="fa fa-volume-down"></i></button>
+    <button class="icon" onclick="playSound()"><i class="fa fa-volume-down"></i></button>
   </div>
   <div class="word-detail">
     <p>${data[0].meanings[0].partOfSpeech}</p>
@@ -26,10 +26,13 @@ btn.addEventListener("click", () => {
   </div>
     `;
       sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
-      console.log(sound);
+    })
+    .catch(() => {
+      result.innerHTML = `<h3 class="error">Could't find the Word</h3>`;
     });
 });
 function playSound() {
   sound.play();
+  .catch(console.error();)
 }
 // https://www.youtube.com/watch?v=PUkgK7TI0x0&ab_channel=CodingArtist
