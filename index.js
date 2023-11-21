@@ -34,4 +34,3 @@ btn.addEventListener("click", () => {
 function playSound() {
   sound.play();
 }
-// https://www.youtube.com/watch?v=PUkgK7TI0x0&ab_channel=CodingArtist
